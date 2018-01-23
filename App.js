@@ -181,7 +181,7 @@ const RootDrawer = DrawerNavigator(
         Welfare: {
             screen: Welfare,
             navigationOptions: {
-                drawerLabel: 'Welfare',
+                drawerLabel: '福利',
                 drawerIcon: ({ tintColor, focused }) => (
                     <Image
                         style={styles.drawerIcon}
@@ -223,7 +223,7 @@ const RootDrawer = DrawerNavigator(
         FrontEnd: {
             screen: FrontEndStackNavigator,
             navigationOptions: {
-                drawerLabel: 'FrontEnd',
+                drawerLabel: '前端',
                 drawerIcon: ({ tintColor, focused }) => (
                     <Image
                         style={styles.drawerIcon}
@@ -237,7 +237,7 @@ const RootDrawer = DrawerNavigator(
         RestVideo: {
             screen: RestVideoStackNavigator,
             navigationOptions: {
-                drawerLabel: 'RestVideo',
+                drawerLabel: '休闲视频',
                 drawerIcon: ({ tintColor, focused }) => (
                     <Image
                         style={styles.drawerIcon}
@@ -251,7 +251,7 @@ const RootDrawer = DrawerNavigator(
         ExpandRes: {
             screen: ExpandResStackNavigator,
             navigationOptions: {
-                drawerLabel: 'ExpandRes',
+                drawerLabel: '拓展资源',
                 drawerIcon: ({ tintColor, focused }) => (
                     <Image
                         style={styles.drawerIcon}
@@ -283,7 +283,7 @@ const RootDrawer = DrawerNavigator(
         About: {
             screen: AboutStackNavigator,
             navigationOptions: {
-                drawerLabel: 'About',
+                drawerLabel: '关于',
                 drawerIcon: ({ tintColor, focused }) => (
                     <Image
                         style={styles.drawerIcon}
