@@ -27,7 +27,7 @@ export default class Welfare extends Component {
 
     componentDidMount() {
         this.fetchData()
-        this.props.navigation.navigate('DrawerToggle')
+        // this.props.navigation.navigate('DrawerToggle')
     }
 
     render() {

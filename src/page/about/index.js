@@ -3,11 +3,12 @@
  */
 
 import React, { Component } from 'react'
-import {Image, View, Text, TouchableOpacity } from 'react-native'
+import {Image, StatusBar, Text, TouchableOpacity } from 'react-native'
 import { SafeAreaView } from 'react-navigation'
 
 import styles from './style'
 import Header from "../../component/Header"
+import Constant from "../../Constant";
 
 export default class About extends Component {
     constructor(props) {
@@ -17,6 +18,11 @@ export default class About extends Component {
     render() {
         return(
             <SafeAreaView style={styles.container}>
+                <StatusBar
+                    translucent={false}
+                    hidden={false}
+                    backgroundColor={Constant.themeColor}
+                />
                 <Image
                     style={styles.image}
                     source={require('../../image/zeroandsanji.jpeg')}

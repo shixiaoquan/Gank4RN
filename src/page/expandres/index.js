@@ -29,7 +29,11 @@ export default class ExpandRes extends Component {
     render() {
         return(
             <SafeAreaView style={styles.container}>
-                <StatusBar backgroundColor={'#E8296A'} />
+                <StatusBar
+                    translucent={false}
+                    hidden={false}
+                    backgroundColor={Constant.themeColor}
+                />
                 <FlatList
                     keyExtractor={this.keyExtractor}
                     data={this.state.data}

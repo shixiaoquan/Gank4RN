@@ -15,5 +15,4 @@ export default {
     apibase: 'http://gank.io/api',
 
     themeColor: '#E82969',
-
 }
