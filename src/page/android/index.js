@@ -29,11 +29,7 @@ export default class Android extends Component {
     render() {
         return(
             <SafeAreaView style={styles.container}>
-                <StatusBar
-                    // translucent={true}
-                    // hidden={true}
-                    backgroundColor={'#E8296A'}
-                />
+                <StatusBar backgroundColor={'#E8296A'} />
                 <FlatList
                     keyExtractor={this.keyExtractor}
                     data={this.state.data}

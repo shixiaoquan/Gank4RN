@@ -3,7 +3,7 @@
  */
 
 import React, { Component } from 'react'
-import { View, Text, FlatList } from 'react-native'
+import { View, StatusBar, FlatList } from 'react-native'
 import { SafeAreaView } from 'react-navigation'
 import uuidv1 from "uuid/v1";
 
@@ -29,6 +29,7 @@ export default class FrontEnd extends Component {
     render() {
         return(
             <SafeAreaView style={styles.container}>
+                <StatusBar backgroundColor={'#E8296A'} />
                 <FlatList
                     keyExtractor={this.keyExtractor}
                     data={this.state.data}

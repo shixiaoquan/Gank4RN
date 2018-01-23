@@ -17,6 +17,7 @@ import ExpandRes from './src/page/expandres'
 import Random from './src/page/random'
 import About from './src/page/about'
 import Detail from "./src/page/detail";
+import Constant from "./src/Constant";
 
 const width = Dimensions.get('window').width
 
@@ -37,11 +38,14 @@ const AndroidStackNavigator = new StackNavigator(
                         />
                     </TouchableOpacity>
                 ),
-                headerStyle: {backgroundColor: '#E82969'}
+                headerStyle: {backgroundColor: Constant.themeColor}
             })
         },
         Detail: {
-            screen: Detail
+            screen: Detail,
+            navigationOptions: {
+                headerStyle: {backgroundColor: Constant.themeColor}
+            }
         }
     }
 )
@@ -63,11 +67,14 @@ const IOSStackNavigator = new StackNavigator(
                         />
                     </TouchableOpacity>
                 ),
-                headerStyle: {backgroundColor: '#E82969'}
+                headerStyle: {backgroundColor: Constant.themeColor}
             })
         },
         Detail: {
-            screen: Detail
+            screen: Detail,
+            navigationOptions: {
+                headerStyle: {backgroundColor: Constant.themeColor}
+            }
         }
     }
 )
@@ -89,11 +96,14 @@ const FrontEndStackNavigator = new StackNavigator(
                         />
                     </TouchableOpacity>
                 ),
-                headerStyle: {backgroundColor: '#E82969'}
+                headerStyle: {backgroundColor: Constant.themeColor}
             })
         },
         Detail: {
-            screen: Detail
+            screen: Detail,
+            navigationOptions: {
+                headerStyle: {backgroundColor: Constant.themeColor}
+            }
         }
     }
 )
@@ -115,11 +125,14 @@ const RestVideoStackNavigator = new StackNavigator(
                         />
                     </TouchableOpacity>
                 ),
-                headerStyle: {backgroundColor: '#E82969'}
+                headerStyle: {backgroundColor: Constant.themeColor}
             })
         },
         Detail: {
-            screen: Detail
+            screen: Detail,
+            navigationOptions: {
+                headerStyle: {backgroundColor: Constant.themeColor}
+            }
         }
     }
 )
@@ -141,11 +154,14 @@ const ExpandResStackNavigator = new StackNavigator(
                         />
                     </TouchableOpacity>
                 ),
-                headerStyle: {backgroundColor: '#E82969'}
+                headerStyle: {backgroundColor: Constant.themeColor}
             })
         },
         Detail: {
-            screen: Detail
+            screen: Detail,
+            navigationOptions: {
+                headerStyle: {backgroundColor: Constant.themeColor}
+            }
         }
     }
 )
@@ -167,11 +183,14 @@ const AboutStackNavigator = new StackNavigator(
                         />
                     </TouchableOpacity>
                 ),
-                headerStyle: {backgroundColor: '#E82969'}
+                headerStyle: {backgroundColor: Constant.themeColor}
             })
         },
         Detail: {
-            screen: Detail
+            screen: Detail,
+            navigationOptions: {
+                headerStyle: {backgroundColor: Constant.themeColor}
+            }
         }
     }
 )

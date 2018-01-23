@@ -12,5 +12,8 @@ export default {
     all: 'data/all',
     random: 'random/data',
     abouut: 'abouut',
-    apibase: 'http://gank.io/api'
+    apibase: 'http://gank.io/api',
+
+    themeColor: '#E82969',
+
 }

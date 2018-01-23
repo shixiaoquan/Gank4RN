@@ -3,9 +3,10 @@
  */
 
 import React, { Component } from 'react'
-import { View, WebView } from 'react-native'
+import { View, WebView, StatusBar } from 'react-native'
 
 import styles from './style'
+import Constant from "../../Constant";
 
 export default class Detail extends Component {
     constructor(props) {
@@ -15,6 +16,7 @@ export default class Detail extends Component {
     render() {
         return(
             <View style={styles.container}>
+                <StatusBar backgroundColor={Constant.themeColor} />
                 <WebView
                     style={styles.webView}
                     source={{uri: this.props.navigation.state.params.url}}
