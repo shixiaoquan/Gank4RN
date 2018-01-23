@@ -41,7 +41,7 @@ export default class About extends Component {
                     onPress={() => this.props.navigation.navigate(
                         'Detail',
                         {
-                            url: 'https://www.jianshu.com/u/0c7932d77515'
+                            url: 'https://github.com/shixiaoquan'
                         }
                     )}
                 >
